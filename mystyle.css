@@ -121,4 +121,25 @@
   100%{transform: rotate(0deg);}
   }
 
-  /* esercizio 12 */
+/* esercizio 12 */
+
+.ex-12-button:hover .ex.12-top-white{
+    animation: scorrisu 2s linear;
+}
+
+@keyframes scorrisu{
+    0% {left: 10%;}
+    50% {left: calc(100% - 60px);}
+    100% {left: 10%;}
+
+}
+
+.ex-12-button:hover .ex.12-bottom-white{
+    animation: scorrigiu 2s linear;
+}
+
+@keyframes scorrigiu {
+    0% {right: 20%;}
+    50% {right: calc(100% - 60px);}
+    100% {right: 20%;}
+}
