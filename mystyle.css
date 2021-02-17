@@ -66,3 +66,59 @@
 .ex-7-img:hover{
   filter: grayscale(1);
 }
+
+/* esercizio 8 */
+
+.ex-8-img{
+  transition: all 2s ease 0s;
+}
+
+.ex-8-img:hover{
+  border-radius: 15px;
+  filter: sepia(1);
+}
+
+/* esercizio 9 */
+
+.ex-9-img{
+  transition: all 2s ease 0s;
+}
+
+.ex-9-img:hover{
+  border-radius: 15px;
+  filter: sepia(1);
+  transform: scale(1.5);
+}
+
+/* esercizio 10 */
+
+.ex-10-icon{
+  animation-name: gira;
+  animation-duration: 1s;
+  animation-direction: left;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes gira{
+  0%{transform: rotate(360deg);}
+  }
+/* esercizio 11   */
+
+.ex-11-icon:hover{
+  animation-name: gira2;
+  animation-duration: 2s;
+  animation-direction: left;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+}
+
+@keyframes gira2{
+  0%{transform: rotate(0deg);}
+  25%{transform: rotate(90deg);}
+  50%{transform: rotate(180deg);}
+  85%{transform: rotate(270deg);}
+  100%{transform: rotate(0deg);}
+  }
+
+  /* esercizio 12 */
